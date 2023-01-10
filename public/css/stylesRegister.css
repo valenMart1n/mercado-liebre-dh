@@ -25,6 +25,12 @@ div.top-header{
     display: flex;
 
 }
+.form{
+    display: flex;
+
+    width:50%;
+    
+}
 
 header{
     background-color: #EAC926;
@@ -34,6 +40,16 @@ header div{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+}
+header input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    width: 50%;
+
+   
 }
 header div.logo{
     width: 50%;
@@ -64,7 +80,7 @@ header .form .input{
     outline: none;
     color: #666;
     padding: 2px;
-    width: 50%;
+  
 
    
 }
@@ -101,6 +117,11 @@ div.burger-menu i{
 
 }
 form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -126,7 +147,10 @@ p{
     padding: 4px;
     border-color: #FFF;
 }
-
+.logo img{
+    max-width: 460px;
+    max-height: 95px;
+}
 
 @media (min-width: 401px){
    
